@@ -13,8 +13,8 @@ namespace PR
         public int[] _arr;
         public RangeOfArray(int end, int start)
         {
-            this._start = start;
-            this._end = end;
+            _start = start;
+            _end = end;
             _arr = new int[Math.Abs(_end - _start) + 1];
         }
         public void Print(RangeOfArray arr, int start)
